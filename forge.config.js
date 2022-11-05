@@ -13,7 +13,8 @@ module.exports = {
     {
       name: '@electron-forge/maker-deb',
       config: {
-        homepage: 'https://anigma.io' 
+        homepage: 'https://github.com/brilliancebitcoin/nostrgram',
+        icon: 'anigma-logo.png'
       },
     },
     // {
