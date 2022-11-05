@@ -16,6 +16,10 @@ yarn start
 ## Or install via a native binary. Example:
 dpkg -i out/make/deb/x64/anigmatron_x.x.x_amd64.deb
 
+## If you have trouble installing the .deb, 
+## you may need additional dependencies.
+sudo apt install zstd # needed for decompressing the .deb
+
 ## If you don't see a binary for your OS, make one!
 yarn make
 
